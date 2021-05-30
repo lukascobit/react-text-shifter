@@ -12,5 +12,7 @@ textarea{
     margin:0 auto;
     width: 50vw;
     height: 20vw;
-    overflow: hidden;
+}
+h1{
+    width: 90%;
 }

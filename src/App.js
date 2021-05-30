@@ -12,13 +12,13 @@ function App() {
   
   function Change(e){
     setInput(e.target.value);
-    setL(`${input.split("").length}px`);
+    setL(input.split("").length);
   }
   
   return (
     <div className="App">
       <h2>Rerendered {timesRendered.current} times</h2>
-      <h1 style={{fontSize : l}}>{input}</h1>
+      <h1 style={{color : `rgb(${l}, ${l}, ${l})`}}>{input}</h1>
       <textarea type="text" value={input} onChange={e => Change(e)}/>
       
     </div>
