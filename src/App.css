@@ -7,26 +7,34 @@ body {
 }
 .App{
     position: absolute;
-    margin:0;
-}
-textarea{
-    position: absolute;
-    margin:0 auto;
-    width: 50vw;
-    height: 20vw;
-}
-h1{
-    width: 90%;
+    margin:2vw;
 }
 .can{
-    width: 100%;
-    height: 100%;
+    position:absolute;
+    width: 30vw;
+    height: 30vw;
     margin: auto;
-    border: solid hsl(0, 0%, 0%) 0.1vw;
     padding: 0%;
     border-radius: 1vw;
+    box-shadow: 1vw gray;
 }
 .fa{
     width: 100%;
     height: 100%;
+}
+label, input{ 
+    margin: 0vw 0vw 0 24vw;
+    width: 20%;
+}
+.b{
+    position:absolute;
+    top: 0%;
+    right: 5%;
+    background-color: rgb(43, 214, 226);
+    border: none;
+    padding: 1vw;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0.2vw;
+    font-weight: 900;
 }
